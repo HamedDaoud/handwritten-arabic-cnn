@@ -5,7 +5,7 @@ This project focuses on recognizing **handwritten Arabic characters** using **Tr
 The model was fine-tuned with a **custom head** and optimized using **hyperparameter tuning**.
 
 - **Model Architecture**: ResNet50 + Custom Head
-- **Dataset**: Arabic character dataset (excluding CelebA)
+- **Dataset**: Arabic character dataset
 - **Training Strategy**:
   - Transfer Learning with **ResNet50**
   - **Hyperparameter tuning** to optimize performance
