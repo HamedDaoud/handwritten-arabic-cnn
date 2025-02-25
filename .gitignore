@@ -167,5 +167,18 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+keras_tuner_results/
+
 # PyPI configuration file
 .pypirc
+
+# Datasets
+Final_Arabic_Alpha_dataset/
+CelebA/
+
+# models
+arabic_letter_classifier_*_*
+*.keras
+
+# weights
+mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_128_no_top.h5
