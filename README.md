@@ -7,8 +7,16 @@ The model was fine-tuned with a **custom head** and optimized using **hyperparam
 - **Model Architecture**: ResNet50 + Custom Head
 - **Dataset**: Arabic character dataset
 - **Training Strategy**:
-  - Transfer Learning with **ResNet50**
-  - **Hyperparameter tuning** to optimize performance
+  - Explored **multiple architectures** including **ResNet50** and **MobileNet**.
+  - Designed and tested **various custom heads**.
+  - Used **Keras Tuner** for **extensive hyperparameter tuning**.
+  - Fine-tuned the best-performing models for **optimal accuracy**.
+
+This project also served as a **learning playground** for implementing and applying key concepts in:
+- **Transfer Learning**
+- **Hyperparameter Tuning**
+- **Convolutional Neural Networks (CNNs)**
+- **TensorFlow & Keras**
 
 ---
 
